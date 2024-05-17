@@ -1,0 +1,139 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+nav .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+nav .nav-links li {
+    margin: 0 1em;
+}
+
+nav .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+nav .nav-links li a:hover {
+    background-color: #495057;
+}
+
+main {
+    padding: 2em;
+    background-color: #fff;
+    margin: 2em auto;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-section {
+    text-align: center;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    align-items: start;
+}
+
+.about-text, .about-contacts {
+    background-color: #f9f9f9;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-text h1 {
+    margin-bottom: 1em;
+    font-size: 2.5em;
+    color: #343a40;
+}
+
+.about-text p {
+    line-height: 1.6;
+    margin-bottom: 2em;
+    font-size: 1.1em;
+}
+
+.about-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-text ul li {
+    background: #e9ecef;
+    margin: 0.5em 0;
+    padding: 0.75em;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: #495057;
+}
+
+.about-contacts h2 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: #343a40;
+}
+
+.about-contacts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-contacts ul li {
+    background: #e9ecef;
+    margin: 0.5em 0;
+    padding: 0.75em;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: #495057;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #343a40;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
